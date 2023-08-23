@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 html {
   box-sizing: border-box;
@@ -38,9 +38,10 @@ html,
 }
 
 .navbar {
+
   &__logo {
     font-size: 30px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-weight: bold;
   }
 
@@ -53,14 +54,51 @@ html,
 
   &__link {
     font-size: 16px;
-    color: #3E4C59;
+    color: #3e4c59;
     text-decoration: none;
     padding: 0px 5px;
   }
 
   &__link:hover {
-    opacity: .5;
+    opacity: 0.5;
     color: darkcyan;
     border-bottom: 3px solid darkcyan;
+  }
+}
+
+.topic {
+  &__about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    border-radius: 40px;
+  }
+}
+
+.about-me {
+  &__avatar {
+    width: 500px;
+    border-radius: 50%;
+    padding-bottom: 70px;
+  }
+
+  &__description {
+    margin-right: 100px;
+    width: 400px;
+  }
+}
+
+.description {
+  &__headline {
+    text-align: left;
+    font-size: 36px;
+  }
+
+  &__text {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
   }
 }
