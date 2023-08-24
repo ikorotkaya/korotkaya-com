@@ -4,13 +4,12 @@ export function Skills() {
   return (
     <div className="app__topic">
       <div className="topic__skills" id="skills">
-        <div className="skills__headline">Skills</div>
+        <div className="skills__headline topic-headline">Skills</div>
         <div className="skills__text">Some technologies I work with:</div>
         <div className="skills__list">
           <div className="skills__list-item">
-            <div className="list-item__text">
-              <img className="list-item__image" src={String(js)} alt="html" />
               <div className="list-item__text">HTML</div>
+              <img className="list-item__image" src={String(js)} alt="html" />
             </div>
             <div className="skills__list-item">
               <div className="list-item__text">CSS/Sass</div>
@@ -47,6 +46,5 @@ export function Skills() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
