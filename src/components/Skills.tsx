@@ -8,41 +8,41 @@ export function Skills() {
         <div className="skills__text">Some technologies I work with:</div>
         <div className="skills__list">
           <div className="skills__list-item">
-              <div className="list-item__text">HTML</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">HTML</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">CSS/Sass</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">CSS/Sass</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">JavaScript</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">JavaScript</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">TypeScript</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">TypeScript</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">React</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">React</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">Node.js</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">Node.js</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">Express</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">Express</h5>
             </div>
             <div className="skills__list-item">
-              <div className="list-item__text">PostgreSQL/SQL</div>
               <img className="list-item__image" src={String(js)} alt="html" />
+              <h5 className="list-item__text">PostgreSQL/SQL</h5>
             </div>
-            <div className="skills__list-item">
-              <div className="list-item__text">VS Code</div>
+            {/* <div className="skills__list-item">
               <img className="list-item__image" src={String(js)} alt="html" />
-            </div>
+              <h5 className="list-item__text">VS Code</h5>
+            </div> */}
           </div>
         </div>
       </div>

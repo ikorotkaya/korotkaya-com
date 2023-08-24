@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
 
 html {
   box-sizing: border-box;
@@ -44,8 +45,8 @@ html,
 .navbar {
 
   &__logo {
-    font-size: 30px;
-    font-family: "Dancing Script", cursive;
+    font-size: 36px;
+    font-family: "Caveat";
     font-weight: bold;
   }
 
@@ -113,22 +114,22 @@ html,
   
   &__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-items: center;
   }
 
   &__list-item { 
-    background-color: #f0f0f0;
-    padding: 20px;
+    // background-color: #f0f0f0;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
-    // width: 150px;
+    // width: 10rem;
   }
 
-  &__list-item:hover {
-    background-color: #e0e0e0;
-  }
+  // &__list-item:hover {
+  //   background-color: #e0e0e0;
+  // }
 
   &__text {
     font-size: 18px;
@@ -136,10 +137,19 @@ html,
   }
 }
 
+h5 {
+  font-size: 24px;
+  margin: 0;
+  // font-style: italic;
+  color: darkcyan;
+  font-family: 'Caveat';
+}
 .list-item {
+  
   &__image {
-    width: 50px;
-    height: 50px;
+    margin-bottom: 12px;
+    width: 60px;
+    height: 60px;
   }
 }
 
