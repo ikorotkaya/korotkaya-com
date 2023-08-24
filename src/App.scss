@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
 html {
   box-sizing: border-box;
@@ -13,9 +14,9 @@ html {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Sora', sans-serif;
   font-display: swap;
-  color: #1f2933;
+  color: #06091d;
 }
 
 body,
@@ -29,7 +30,7 @@ html,
   max-width: 1000px;
 
   &__navbar {
-    color: #000000;
+    color: #06091d;
     text-align: left;
     display: flex;
     align-items: center;
@@ -132,7 +133,7 @@ html,
   // }
 
   &__text {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 20px;
   }
 }
@@ -154,7 +155,7 @@ h5 {
 }
 
 .topic-headline {
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 30px;
   text-decoration: underline;
   font-weight: bold;
