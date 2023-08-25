@@ -20,7 +20,7 @@ export function About() {
         </div>
         <div className="description__text">
           I'm a full-stack engineer with a background in architecture and
-          design.
+          design, based in Berlin. Currently looking for a new opportunity!
         </div>
       </div>
     </div>
