@@ -16,7 +16,7 @@ export function Project({
   return (
     <div className="container__project">
       <h2>{title}</h2>
-      <img src={imageSrc} alt={title} />
+      <img className="project__prev" src={imageSrc} alt={title} />
       <p>{description}</p>
       <div className="project__links">
         <a href={githubLink} target="_blank" rel="noopener noreferrer">

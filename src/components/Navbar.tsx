@@ -8,6 +8,7 @@ const sections = [
 ];
 
 export function Navbar() {
+  
   return (
     <div className="app__navbar">
       <div className="navbar__logo">Irina Korotkaya</div>

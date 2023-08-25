@@ -24,6 +24,8 @@ html,
   height: 100%;
 }
 
+// app
+
 .app {
   margin: 0 auto;
   max-width: 1000px;
@@ -40,7 +42,7 @@ html,
 
   &__topic {
     margin-bottom: 100px;
-    height: 100vh;
+    // height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,6 +58,8 @@ html,
     width: 100%;
   } 
 }
+
+// navbar
 
 .navbar {
 
@@ -86,6 +90,9 @@ html,
   }
 }
 
+
+// topic
+
 .topic {
   &__about-me {
     display: grid;
@@ -97,6 +104,12 @@ html,
   }
 
   &__skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__projects {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -179,6 +192,33 @@ h5 {
   margin-bottom: 30px;
   text-decoration: underline;
   font-weight: bold;
+  text-underline-offset: 10px;
+}
+
+// projects
+
+.projects {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+}
+
+.project {
+  &__prev {
+    object-fit: cover;
+    width: 400px;
+    height: 290px;
+    object-position: 0 0;
+    border-radius: 20px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 // footer
