@@ -1,45 +1,23 @@
 import { Link } from "react-scroll";
 
+const sections = [
+  { id: "about", text: "About" },
+  { id: "skills", text: "Skills" },
+  { id: "projects", text: "Projects" },
+  { id: "contact", text: "Contact" },
+];
+
 export function Navbar() {
   return (
     <div className="app__navbar">
       <div className="navbar__logo">Irina Korotkaya</div>
       <nav className="navbar__links">
-        <ul>
-          <li>
-            <Link to="about" smooth={true} duration={500}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" smooth={true} duration={500}>
-              Skills
-            </Link>
-          </li>
-          <li>
-            <Link to="projects" smooth={true} duration={500}>
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" smooth={true} duration={500}>
-              Contact
-            </Link>
-          </li>
-        </ul>
+        {sections.map((section) => (
+          <Link key={section.id} to={section.id} smooth={true} duration={500}>
+            {section.text}
+          </Link>
+        ))}
       </nav>
-      {/* <a className="navbar__link" href="#about">
-          About
-        </a>
-        <a className="navbar__link" href="#projects">
-          Skills
-        </a>
-        <a className="navbar__link" href="#projects">
-          Projects
-        </a>
-        <a className="navbar__link" href="#contact">
-          Contact
-        </a> */}
     </div>
   );
 }
