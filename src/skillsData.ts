@@ -1,34 +1,34 @@
 export const skillsData = [
   {
     title: 'HTML',
-    logoSrc: 'src/images/js-file.png', // Change this to the name of the image file in src/assets/images
+    logoSrc: 'html-5.png', // Change this to the name of the image file in src/assets/images
   },
   {
-    title: 'Sass/CSS',
-    logoSrc: 'js-file.png',
+    title: 'CSS',
+    logoSrc: 'css.png',
+  },
+  {
+    title: 'Sass',
+    logoSrc: 'sass.png',
   },
   {
     title: 'Javascript',
-    logoSrc: 'js-file.png',
+    logoSrc: 'javascript.png',
   },
   {
     title: 'Typescript',
-    logoSrc: 'js-file.png',
+    logoSrc: 'typescript.png',
   },
   {
     title: 'React',
-    logoSrc: 'js-file.png',
+    logoSrc: 'react.png',
   },
   {
     title: 'Node.js',
-    logoSrc: 'js-file.png',
+    logoSrc: 'nodejs.png',
   },
   {
-    title: 'Express',
-    logoSrc: 'js-file.png',
-  },
-  {
-    title: 'PostrgreSQL/SQL',
-    logoSrc: 'js-file.png',
+    title: 'PostrgreSQL',
+    logoSrc: 'postgre.png',
   },
 ];
