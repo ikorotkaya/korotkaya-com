@@ -42,6 +42,15 @@ html,
     margin-bottom: 100px;
     height: 100vh;
   }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+  } 
 }
 
 .navbar {
@@ -79,7 +88,7 @@ html,
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 238, 238);
+    // background-color: rgb(238, 238, 238);
     border-radius: 40px;
   }
 }
@@ -160,4 +169,13 @@ h5 {
   margin-bottom: 30px;
   text-decoration: underline;
   font-weight: bold;
+}
+
+// footer
+
+.footer {
+  &__text {
+    font-size: 14px;
+    color: #3e4c59;
+  }
 }
