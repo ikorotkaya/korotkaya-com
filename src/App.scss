@@ -303,6 +303,16 @@ h5 {
 
 @media (max-width: 768px) {
 
+  .app {
+    &__navbar {
+      margin: 2rem 0;
+    }
+
+    &__topic {
+      margin-bottom: 4rem;
+    }
+  }
+
   .topic {
     &__about-me {
       display: flex;
@@ -327,6 +337,10 @@ h5 {
   }
 
   .navbar {
+    &__logo {
+      font-size: 24px;
+    }
+    
     &__links {
       display: none;
     }
