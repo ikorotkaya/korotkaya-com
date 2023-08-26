@@ -246,3 +246,38 @@ h5 {
     color: #3e4c59;
   }
 }
+
+// contact
+
+.contact {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  &__social-link {
+    text-decoration: none;
+    color: #3e4c59;
+    font-size: 24px;
+    padding: 0 10px;
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+  }
+}
+
+.social-link {
+  &__link {
+    text-decoration: none;
+    color: #3e4c59;
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  &__logo {
+    width: 25px;
+  }
+}
