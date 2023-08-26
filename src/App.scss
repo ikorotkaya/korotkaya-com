@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
 
 html {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   font-display: swap;
   color: #06091d;
 }
@@ -28,7 +28,7 @@ html,
 
 .app {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 900px;
 
   &__navbar {
     color: #06091d;
@@ -42,7 +42,6 @@ html,
 
   &__topic {
     margin-bottom: 100px;
-    // height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,13 +55,12 @@ html,
     padding-bottom: 1rem;
     padding-top: 1rem;
     width: 100%;
-  } 
+  }
 }
 
 // navbar
 
 .navbar {
-
   &__logo {
     font-size: 36px;
     font-family: "Caveat";
@@ -89,7 +87,6 @@ html,
     border-bottom: 3px solid darkcyan;
   }
 }
-
 
 // topic
 
@@ -140,7 +137,6 @@ html,
 // skills
 
 .skills {
-  
   &__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -148,17 +144,11 @@ html,
     justify-items: center;
   }
 
-  &__list-item { 
-    // background-color: #f0f0f0;
+  &__list-item {
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    // width: 10rem;
   }
-
-  // &__list-item:hover {
-  //   background-color: #e0e0e0;
-  // }
 
   &__text {
     font-size: 16px;
@@ -171,7 +161,7 @@ h5 {
   margin: 0;
   // font-style: italic;
   color: darkcyan;
-  font-family: 'Caveat';
+  font-family: "Caveat";
 }
 
 .list-item {
@@ -197,15 +187,13 @@ h5 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-items: center;
   }
 }
 
 .project {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 25rem;
+  width: 100%;
 
   &__prev {
     object-fit: cover;
@@ -220,9 +208,8 @@ h5 {
     display: flex;
     margin-top: auto;
     width: 100%;
-    justify-content: space-evenly;
   }
-  
+
   &__menu-link {
     text-decoration: none;
     color: white;
@@ -231,12 +218,14 @@ h5 {
     background-color: darkcyan;
     border-radius: 10px;
   }
+  &__menu-link:not(:last-child) {
+    margin-right: 10px;
+  }
 
   &__menu-link:hover {
     background-color: rgb(1, 93, 93);
   }
 }
-
 
 // footer
 
@@ -264,8 +253,8 @@ h5 {
     font-size: 24px;
     padding: 0 10px;
     display: flex;
-    // flex-direction: column;
     align-items: center;
+    margin-top: 20px;
   }
 }
 
@@ -273,7 +262,7 @@ h5 {
   &__link {
     text-decoration: none;
     color: #3e4c59;
-    font-size: 18px;
+    font-size: 16px;
     padding: 0 10px;
   }
 
