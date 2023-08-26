@@ -76,15 +76,15 @@ html,
 
   &__link {
     font-size: 16px;
-    color: #3e4c59;
+    color: #06091d;
     text-decoration: none;
     padding: 0px 5px;
   }
 
   &__link:hover {
-    opacity: 0.5;
+    cursor: pointer;
     color: darkcyan;
-    border-bottom: 3px solid darkcyan;
+    font-weight: bold;
   }
 }
 
@@ -195,6 +195,12 @@ h5 {
   flex-direction: column;
   width: 100%;
 
+  &__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
   &__prev {
     object-fit: cover;
     width: 100%;
@@ -212,27 +218,21 @@ h5 {
 
   &__menu-link {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
+    color: #06091d;
+    font-size: 14px;
     padding: 5px 10px;
-    background-color: darkcyan;
     border-radius: 10px;
+    background-color: rgb(238, 238, 238);
   }
+
   &__menu-link:not(:last-child) {
     margin-right: 10px;
   }
 
   &__menu-link:hover {
-    background-color: rgb(1, 93, 93);
-  }
-}
-
-// footer
-
-.footer {
-  &__text {
-    font-size: 14px;
-    color: #3e4c59;
+    background-color: darkcyan;
+    border-radius: 10px;
+    color: white;
   }
 }
 
@@ -268,5 +268,24 @@ h5 {
 
   &__logo {
     width: 25px;
+  }
+
+  &__link:hover {
+    cursor: pointer;
+    color: darkcyan;
+    font-weight: bold;
+  }
+}
+
+// footer
+
+.footer {
+  &__text {
+    font-size: 14px;
+    color: #3e4c59;
+  }
+
+  &__emoji {
+    width: 1em;
   }
 }

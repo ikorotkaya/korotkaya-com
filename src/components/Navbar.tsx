@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import { Logo } from "./Logo";
 
 const sections = [
   { id: "about", text: "About" },
@@ -8,13 +9,18 @@ const sections = [
 ];
 
 export function Navbar() {
-  
   return (
     <div className="app__navbar">
-      <div className="navbar__logo">Irina Korotkaya</div>
+      <Logo />
       <nav className="navbar__links">
         {sections.map((section) => (
-          <Link key={section.id} to={section.id} smooth={true} duration={500}>
+          <Link
+            className="navbar__link"
+            key={section.id}
+            to={section.id}
+            smooth={true}
+            duration={500}
+          >
             {section.text}
           </Link>
         ))}
