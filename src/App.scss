@@ -30,18 +30,22 @@ html,
   margin: 0 auto;
   max-width: 900px;
 
+  &__container {
+    margin: 0 2rem;
+  }
+
   &__navbar {
     color: #06091d;
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0;
+    margin: 20px 0 6rem;
     width: 100%;
   }
 
   &__topic {
-    margin-bottom: 100px;
+    margin-bottom: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,10 +113,20 @@ html,
   }
 }
 
+.topic-headline {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-offset: 10px;
+}
+
+// about me
+
 .about-me {
   &__avatar {
     border-radius: 50%;
-    padding-bottom: 100px;
+    padding-bottom: 3rem;
     width: 50%;
   }
 
@@ -124,17 +138,17 @@ html,
   }
 }
 
-.description {
-  &__headline {
-    font-size: 36px;
-  }
+  .description {
+    &__headline {
+      font-size: 36px;
+    }
 
-  &__text {
-    font-size: 20px;
-    margin-top: 20px;
-    line-height: 30px;
+    &__text {
+      font-size: 20px;
+      margin-top: 20px;
+      line-height: 30px;
+    }
   }
-}
 
 // skills
 
@@ -174,14 +188,6 @@ h5 {
   }
 }
 
-.topic-headline {
-  font-size: 32px;
-  margin-bottom: 30px;
-  text-decoration: underline;
-  font-weight: bold;
-  text-underline-offset: 10px;
-}
-
 // projects
 
 .projects {
@@ -191,6 +197,8 @@ h5 {
     gap: 20px;
   }
 }
+
+// project card
 
 .project {
   display: flex;
@@ -294,11 +302,6 @@ h5 {
 // mobile
 
 @media (max-width: 768px) {
-  .app {
-    &__container{
-      margin: 0 2rem;
-    }
-  }
 
   .topic {
     &__about-me {
@@ -329,16 +332,6 @@ h5 {
     }
   }
 
-  // .about-me {
-  //   &__avatar {
-  //     padding-bottom: 0;
-  //   }
-
-  //   &__description {
-  //     margin: 0;
-  //   }
-  // }
-
   .skills {
     &__list {
       grid-template-columns: repeat(2, 1fr);
@@ -361,7 +354,9 @@ h5 {
       flex-direction: column;
       align-items: start;
     }
+
+    &__social-link {
+      padding: 0;
+    }
   }
-
-
 }
