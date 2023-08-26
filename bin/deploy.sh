@@ -4,4 +4,12 @@ echo 'korotkaya.com' > build/CNAME
 
 cp .gitignore build 
 
-git push origin `git subtree split --prefix build main`:production --force
+git checkout production
+
+git checkout main -- build/*
+
+git add .
+
+git commit -m "New build"
+
+git push origin production --force
