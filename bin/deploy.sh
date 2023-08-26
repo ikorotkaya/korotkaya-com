@@ -8,6 +8,8 @@ git checkout production
 
 git checkout main -- build/*
 
+rm -rf build
+
 git add .
 
 git commit -m "New build"
