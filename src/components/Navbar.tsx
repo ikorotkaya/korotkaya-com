@@ -1,30 +1,28 @@
-import { Link } from "react-scroll";
-import { Logo } from "./Logo";
+import { useState, useEffect } from "react";
 
-const sections = [
-  { id: "about", text: "About" },
-  { id: "skills", text: "Skills" },
-  { id: "projects", text: "Projects" },
-  { id: "contact", text: "Contact" },
-];
+import { Logo } from "./Logo";
+import { DesktopNavbarLinks } from "./DesktopNavbarLinks";
+import { MobileNavbarLinks } from "./MobileNavbarLinks";
 
 export function Navbar() {
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="app__navbar">
       <Logo />
-      <nav className="navbar__links">
-        {sections.map((section) => (
-          <Link
-            className="navbar__link"
-            key={section.id}
-            to={section.id}
-            smooth={true}
-            duration={500}
-          >
-            {section.text}
-          </Link>
-        ))}
-      </nav>
+      {windowWidth < 768 ? <MobileNavbarLinks /> : <DesktopNavbarLinks />}
     </div>
   );
 }

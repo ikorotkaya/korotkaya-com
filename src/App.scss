@@ -92,6 +92,36 @@ html,
   }
 }
 
+// mobile navbar
+
+.mobile-navbar {
+  position: relative; /* Set position to relative for positioning the dropdown */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  
+  &__menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    cursor: pointer;
+  
+    width: 25px;
+  }
+  
+  &__menu-dropdown {
+    position: absolute; /* Position dropdown absolutely */
+    display: flex; /* Display menu items in a column */
+    flex-direction: column; 
+    top: 100%; /* Position it below the menu icon */
+    background-color: white;
+    z-index: 1; /* Ensure it's above other content */
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
 // topic
 
 .topic {
