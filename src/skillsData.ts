@@ -1,7 +1,23 @@
 export const skillsData = [
   {
+    title: 'Typescript',
+    logoSrc: 'typescript.png',
+  },
+  {
+    title: 'Javascript',
+    logoSrc: 'javascript.png',
+  },
+  {
+    title: 'React',
+    logoSrc: 'react.png',
+  },
+  {
+    title: 'PostrgreSQL',
+    logoSrc: 'postgre.png',
+  },
+  {
     title: 'HTML',
-    logoSrc: 'html-5.png', // Change this to the name of the image file in src/assets/images
+    logoSrc: 'html-5.png',
   },
   {
     title: 'CSS',
@@ -12,23 +28,7 @@ export const skillsData = [
     logoSrc: 'sass.png',
   },
   {
-    title: 'Javascript',
-    logoSrc: 'javascript.png',
-  },
-  {
-    title: 'Typescript',
-    logoSrc: 'typescript.png',
-  },
-  {
-    title: 'React',
-    logoSrc: 'react.png',
-  },
-  {
     title: 'Node.js',
     logoSrc: 'nodejs.png',
-  },
-  {
-    title: 'PostrgreSQL',
-    logoSrc: 'postgre.png',
   },
 ];
