@@ -207,6 +207,10 @@ h5 {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   &__prev {
     object-fit: cover;
     width: 400px;
@@ -218,6 +222,7 @@ h5 {
   &__links {
     display: flex;
     flex-direction: column;
+    margin-top: auto;
   }
 }
 

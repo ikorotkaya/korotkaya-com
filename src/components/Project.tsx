@@ -14,7 +14,7 @@ export function Project({
   websiteLink,
 }: ProjectProps) {
   return (
-    <div className="container__project">
+    <div className="project">
       <h2>{title}</h2>
       <img className="project__prev" src={imageSrc} alt={title} />
       <p>{description}</p>
