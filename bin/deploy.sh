@@ -13,3 +13,5 @@ git add .
 git commit -m "New build"
 
 git push origin production --force
+
+git checkout main
