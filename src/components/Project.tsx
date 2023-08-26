@@ -18,11 +18,11 @@ export function Project({
       <h2>{title}</h2>
       <img className="project__prev" src={imageSrc} alt={title} />
       <p>{description}</p>
-      <div className="project__links">
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+      <div className="project__menu">
+        <a className="project__menu-link" href={githubLink} target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href={websiteLink} target="_blank" rel="noopener noreferrer">
+        <a className="project__menu-link" href={websiteLink} target="_blank" rel="noopener noreferrer">
           Website
         </a>
       </div>
