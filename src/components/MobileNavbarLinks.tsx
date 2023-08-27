@@ -22,7 +22,7 @@ export function MobileNavbarLinks() {
   return (
     <div className="mobile-navbar">
       <div className="mobile-navbar__menu-icon" onClick={toggleMenu}>
-        <img src="menu.png" alt="menu-icon" />
+        <img src="/images/menu.webp" alt="menu-icon" />
       </div>
       {menuOpen && (
         <div className="mobile-navbar__menu-dropdown">
