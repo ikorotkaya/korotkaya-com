@@ -2,19 +2,19 @@ const contactOptions = [
   {
     label: "Say hello! 👋",
     link: "mailto:irina@korotkaya.com",
-    icon: "gmail.png",
+    icon: "/images/gmail.webp",
     alt: "Gmail",
   },
   {
     label: "Let's connect 🔗",
     link: "https://www.linkedin.com/in/irinakorotkaya/",
-    icon: "linkedin.png",
+    icon: "/images/linkedin.webp",
     alt: "LinkedIn",
   },
   {
     label: "See my works 🎨",
     link: "https://github.com/ikorotkaya",
-    icon: "github.png",
+    icon: "/images/github.webp",
     alt: "GitHub",
   },
 ];
