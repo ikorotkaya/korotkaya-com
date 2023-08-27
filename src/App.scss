@@ -108,6 +108,7 @@ html,
     cursor: pointer;
 
     width: 25px;
+    height: auto;
   }
 
   &__menu-dropdown {
@@ -158,6 +159,7 @@ html,
     border-radius: 50%;
     margin: 1rem 0 3rem;
     width: 50%;
+    height: 50%;
   }
 
   &__description {
@@ -306,6 +308,7 @@ h5 {
 
   &__logo {
     width: 25px;
+    height: auto;
   }
 
   &__link:hover {
@@ -325,6 +328,7 @@ h5 {
 
   &__emoji {
     width: 1em;
+    height: 1em;
   }
 }
 
@@ -353,6 +357,7 @@ h5 {
   .about-me {
     &__avatar {
       width: 80%;
+      height: 80%;
       padding: 2rem 0;
     }
 
@@ -402,6 +407,10 @@ h5 {
 
   .project {
     margin-bottom: 30px;
+
+    &__prev {
+      height: 17rem;
+    }
   }
 
   .contact {

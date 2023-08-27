@@ -1,3 +1,5 @@
+import React from "react";
+
 import avatar from "../images/Irina_pic.png";
 
 export function Avatar() {
