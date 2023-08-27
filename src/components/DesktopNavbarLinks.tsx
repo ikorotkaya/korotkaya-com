@@ -1,3 +1,5 @@
+import React from "react";
+
 const sections = [
   { id: "about", text: "About" },
   { id: "skills", text: "Skills" },
