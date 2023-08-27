@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
 
 const sections = [
   { id: "about", text: "About" },
@@ -27,16 +26,14 @@ export function MobileNavbarLinks() {
       {menuOpen && (
         <div className="mobile-navbar__menu-dropdown">
           {sections.map((section) => (
-            <Link
+            <a
               className="navbar__link"
               onClick={closeMenu}
               key={section.id}
-              to={section.id}
-              smooth={true}
-              duration={500}
+              href={`#${section.id}`}
             >
               {section.text}
-            </Link>
+            </a>
           ))}
         </div>
       )}

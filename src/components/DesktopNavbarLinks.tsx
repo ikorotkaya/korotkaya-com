@@ -1,5 +1,3 @@
-import { Link } from "react-scroll";
-
 const sections = [
   { id: "about", text: "About" },
   { id: "skills", text: "Skills" },
@@ -8,19 +6,14 @@ const sections = [
 ];
 
 export function DesktopNavbarLinks() {
+
   return (
     <nav className="navbar__links">
-    {sections.map((section) => (
-      <Link
-        className="navbar__link"
-        key={section.id}
-        to={section.id}
-        smooth={true}
-        duration={500}
-      >
-        {section.text}
-      </Link>
-    ))}
-  </nav>
-  )
+      {sections.map((section) => (
+        <a className="navbar__link" key={section.id} href={`#${section.id}`}>
+          {section.text}
+        </a>
+      ))}
+    </nav>
+  );
 }
