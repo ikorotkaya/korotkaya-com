@@ -45,7 +45,7 @@ html,
   }
 
   &__topic {
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,25 +99,25 @@ html,
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  
+
   &__menu-icon {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     cursor: pointer;
-  
+
     width: 25px;
   }
-  
+
   &__menu-dropdown {
     position: absolute; /* Position dropdown absolutely */
     display: flex; /* Display menu items in a column */
-    flex-direction: column; 
+    flex-direction: column;
     top: 100%; /* Position it below the menu icon */
     background-color: white;
     z-index: 1; /* Ensure it's above other content */
-    padding: 10px;
+    padding: 0 5px;
     border-radius: 10px;
   }
 }
@@ -156,7 +156,7 @@ html,
 .about-me {
   &__avatar {
     border-radius: 50%;
-    padding-bottom: 3rem;
+    margin: 1rem 0 3rem;
     width: 50%;
   }
 
@@ -164,21 +164,20 @@ html,
     margin: 0 50px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
   }
 }
 
-  .description {
-    &__headline {
-      font-size: 36px;
-    }
-
-    &__text {
-      font-size: 20px;
-      margin-top: 20px;
-      line-height: 30px;
-    }
+.description {
+  &__headline {
+    font-size: 36px;
   }
+
+  &__text {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+}
 
 // skills
 
@@ -332,7 +331,6 @@ h5 {
 // mobile
 
 @media (max-width: 768px) {
-
   .app {
     &__navbar {
       margin: 2rem 0;
@@ -349,30 +347,44 @@ h5 {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
     }
-
   }
 
   .about-me {
     &__avatar {
       width: 80%;
-      padding-bottom: 3rem;
+      padding: 2rem 0;
     }
 
     &__description {
       align-items: center;
+      margin: 0 3rem 1rem;
     }
-
   }
 
   .navbar {
     &__logo {
       font-size: 24px;
     }
-    
+
     &__links {
       display: none;
+    }
+
+    &__link {
+      font-size: 14px;
+      padding: 5px;
+    }
+  }
+
+  .description {
+    &__headline {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-size: 16px;
+      line-height: 24px;
     }
   }
 
@@ -390,7 +402,6 @@ h5 {
 
   .project {
     margin-bottom: 30px;
-
   }
 
   .contact {
