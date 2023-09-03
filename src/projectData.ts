@@ -11,7 +11,7 @@ export const projects = [
     description: 'The application which allows users to view and search posts and comments provided by the Reddit API',
     imageSrc: '/images/reddit.webp',
     githubLink: 'https://github.com/ikorotkaya/reddit_lite',
-    websiteLink: 'https://mellifluous-medovik.netlify.app/',
+    websiteLink: 'https://reddit-app-lite.netlify.app/',
   },
   {
     title: 'Jammming',
@@ -32,7 +32,7 @@ export const projects = [
     description: 'A place for passing thoughts. Once you add a short thought, it’ll disappear after just 10 seconds',
     imageSrc: '/images/thoughts.webp',
     githubLink: 'https://github.com/ikorotkaya/passing_thoughts',
-    websiteLink: 'https://gleaming-lama.netlify.app/',
+    websiteLink: 'https://pass-thoughts.netlify.app/',
   },
   // Add more projects as needed
 ];
