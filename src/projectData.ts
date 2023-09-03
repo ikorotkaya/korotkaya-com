@@ -4,7 +4,7 @@ export const projects = [
     description: 'A simple word guessing React app built with TypeScript',
     imageSrc: '/images/hangman.webp',
     githubLink: 'https://github.com/ikorotkaya/hangman_typescript_react',
-    websiteLink: 'https://calm-buttercream.netlify.app/',
+    websiteLink: 'https://hangman-word-guessing-game.netlify.app/',
   },
   {
     title: 'Reddit Lite',
