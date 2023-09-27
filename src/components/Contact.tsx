@@ -14,7 +14,7 @@ const contactOptions = [
     alt: "LinkedIn",
   },
   {
-    label: "See my works 🎨",
+    label: "See my work 🎨",
     link: "https://github.com/ikorotkaya",
     icon: "/images/github.webp",
     alt: "GitHub",

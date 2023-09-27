@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: 'Miles Experiences',
+    description: "Explore Berlin's iconic and hidden gems with Miles Experiences. Calculate travel costs and journey times to your chosen destination",
+    imageSrc: '/images/miles.webp',
+    githubLink: 'https://github.com/ikorotkaya/miles_experiences',
+    websiteLink: 'https://miles-experiences.netlify.app/',
+  },
+  {
     title: 'Hangman game',
     description: 'A simple word guessing React app built with TypeScript',
     imageSrc: '/images/hangman.webp',
