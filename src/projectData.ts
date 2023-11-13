@@ -14,6 +14,13 @@ export const projects = [
     websiteLink: 'https://hangman-word-guessing-game.netlify.app/',
   },
   {
+    title: 'Hamburg Architecture',
+    description: `Use this interactive map to explore Hamburg's contemporary architectural highlights, which have been showcased at the "Tag der Architektur" event since 2014.`,
+    imageSrc: '/images/hamburg.webp',
+    githubLink: 'https://github.com/ikorotkaya/hamburg_architecture',
+    websiteLink: 'https://hamburg-architecture.netlify.app/',
+  },
+  {
     title: 'Reddit Lite',
     description: 'An application that allows users to view and search posts and comments sourced from the Reddit API. It includes lazy loading for endless scrolling through posts.',
     imageSrc: '/images/reddit.webp',
