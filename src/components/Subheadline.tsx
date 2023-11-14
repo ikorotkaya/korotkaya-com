@@ -1,3 +1,5 @@
+import React from 'react';
+
 export function Subheadline() {
   return (
     <div className="description__text">
