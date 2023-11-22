@@ -133,7 +133,7 @@ html,
     align-items: center;
     justify-content: center;
     background-color: rgb(238, 238, 238);
-    border-radius: 40px;
+    border-radius: 20px;
   }
 
   &__skills,
@@ -157,10 +157,9 @@ html,
 
 .about-me {
   &__avatar {
-    border-radius: 20%;
-    margin: 1rem 0 2rem;
-    width: 50%;
-    height: 50%;
+    border-radius: 50%;
+    margin: 2rem;
+    width: 40%;
   }
 
   &__description {
@@ -204,20 +203,18 @@ html,
   }
 }
 
-h5 {
-  font-size: 24px;
-  margin: 0;
-  // font-style: italic;
-  color: darkcyan;
-  font-family: "Caveat";
-}
-
 .list-item {
   &__image {
     margin-bottom: 12px;
     width: auto;
     height: 60px;
   }
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0;
 }
 
 // projects

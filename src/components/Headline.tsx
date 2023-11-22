@@ -5,7 +5,7 @@ export function Headline() {
       <b>
         <i>Irina</i>
       </b>
-      !
+      ! 👋🏼
     </div>
   );
 }

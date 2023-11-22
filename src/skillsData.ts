@@ -12,6 +12,22 @@ export const skillsData = [
     logoSrc: '/images/react.webp',
   },
   {
+    title: 'Node.js',
+    logoSrc: '/images/nodejs.webp',
+  },
+  {
+    title: 'Express.js',
+    logoSrc: '/images/express.webp',
+  },
+  {
+    title: 'Git/Github',
+    logoSrc: '/images/git.webp',
+  },
+  {
+    title: 'Tailwind',
+    logoSrc: '/images/tailwind.webp',
+  },
+  {
     title: 'PostrgreSQL',
     logoSrc: '/images/postgre.webp',
   },
@@ -26,9 +42,5 @@ export const skillsData = [
   {
     title: 'Sass',
     logoSrc: '/images/sass.webp',
-  },
-  {
-    title: 'Node.js',
-    logoSrc: '/images/nodejs.webp',
-  },
+  }
 ];
