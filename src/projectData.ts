@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: 'Miles Experiences',
+    title: 'MILES Experiences',
     description: "Explore Berlin's well-known sites and hidden gems with Miles Experiences feature. Estimate the costs and time needed for your trip to your chosen location.",
     imageSrc: '/images/miles.webp',
     githubLink: 'https://github.com/ikorotkaya/miles_experiences',
     websiteLink: 'https://miles-experiences.netlify.app/',
   },
   {
-    title: 'Hangman game',
+    title: 'Hangman Game',
     description: 'A digital adaptation of the classic word-guessing game, where players guess a hidden word letter by letter. It currently supports two languages, and more can be added.',
     imageSrc: '/images/hangman.webp',
     githubLink: 'https://github.com/ikorotkaya/hangman_typescript_react',
@@ -28,21 +28,21 @@ export const projects = [
     websiteLink: 'https://reddit-app-lite.netlify.app/',
   },
   {
-    title: 'Jammming',
-    description: 'Link your Spotify to this app, then utilize the Spotify API to search for music, craft your playlists, and securely store them in your Spotify account.',
-    imageSrc: '/images/jammming.webp',
-    githubLink: 'https://github.com/ikorotkaya/jammming',
+    title: 'Create Playlist',
+    description: 'Link your Spotify to this app, utilize the Spotify API to search for music, craft your playlists, and securely store them in your Spotify account.',
+    imageSrc: '/images/playlist.png',
+    githubLink: 'https://github.com/ikorotkaya/create_playlist',
     websiteLink: 'https://exotic-jelly.surge.sh/',
   },
   {
-    title: 'Currency exchange chart',
+    title: 'Currency Exchange Chart',
     description: 'Explore the potential of Chart.js and make use of the fetch options to create and continuously update currency charts.',
     imageSrc: '/images/currency.webp',
     githubLink: 'https://github.com/ikorotkaya/currency_exchange_chart',
     websiteLink: 'https://ikorotkaya.github.io/currency_exchange_chart/',
   },
   {
-    title: 'Passing thoughts',
+    title: 'Passing Thoughts',
     description: 'A space for momentary musings. Add a concise thought, and watch it fade away in just 10 seconds.',
     imageSrc: '/images/thoughts.webp',
     githubLink: 'https://github.com/ikorotkaya/passing_thoughts',
