@@ -32,6 +32,14 @@ export const skillsData = [
     logoSrc: '/images/postgre.webp',
   },
   {
+    title: 'Cypress',
+    logoSrc: '/images/cypress.jpeg',
+  },
+  {
+    title: 'Jest',
+    logoSrc: '/images/jest.svg',
+  },
+  {
     title: 'HTML',
     logoSrc: '/images/html-5.webp',
   },

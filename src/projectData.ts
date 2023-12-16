@@ -1,21 +1,28 @@
 export const projects = [
   {
+    title: 'Onboarding App',
+    description: "SPA onboarding app built with React and Tailwind.",
+    imageSrc: '/images/onboarding.png',
+    githubLink: 'https://github.com/ikorotkaya/buena-onboarding',
+    websiteLink: 'https://buena-onboarding.netlify.app/',
+  },
+  {
     title: 'MILES Experiences',
-    description: "Explore Berlin's well-known sites and hidden gems with Miles Experiences feature. Estimate the costs and time needed for your trip to your chosen location.",
+    description: "Feature for a MILES Carsharing App. Estimate the costs and time needed for your trip to your chosen location.",
     imageSrc: '/images/miles.webp',
     githubLink: 'https://github.com/ikorotkaya/miles_experiences',
     websiteLink: 'https://miles-experiences.netlify.app/',
   },
   {
     title: 'Hangman Game',
-    description: 'A digital adaptation of the classic word-guessing game, where players guess a hidden word letter by letter. It currently supports two languages, and more can be added.',
+    description: 'A digital adaptation of the classic word-guessing game. It currently supports two languages.',
     imageSrc: '/images/hangman.webp',
     githubLink: 'https://github.com/ikorotkaya/hangman_typescript_react',
     websiteLink: 'https://hangman-word-guessing-game.netlify.app/',
   },
   {
     title: 'Hamburg Architecture',
-    description: `Interactive map showing new buildings in Hamburg presented in the "Tag der Architektur" event from 2014 onwards. The latest release features two languages (EN, DE).`,
+    description: `Interactive map showing new buildings in Hamburg presented in the "Day of Architecture" event from 2014 onwards. The latest release features two languages (EN, DE).`,
     imageSrc: '/images/hamburg.webp',
     githubLink: 'https://github.com/ikorotkaya/hamburg_architecture',
     websiteLink: 'https://hamburg-architecture.netlify.app/',

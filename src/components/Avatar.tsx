@@ -4,7 +4,7 @@ export function Avatar() {
   return (
     <img
       className="about-me__avatar"
-      src="../images/Irina_image.png"
+      src="../images/irina_image.svg"
       alt="Irina
   Korotkaya"
     />
