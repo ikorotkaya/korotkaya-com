@@ -329,6 +329,15 @@ h5 {
   }
 }
 
+.website_link {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.website_link:hover {
+  text-decoration: underline;
+}
+
 // mobile
 
 @media (max-width: 768px) {
