@@ -29,7 +29,7 @@ html,
 
 .app {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1000px;
 
   &__container {
     margin: 0 2rem;
@@ -185,29 +185,49 @@ html,
 
 .skills {
   &__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
   }
 
   &__list-item {
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    transition: opacity 200ms ease;
+  }
+
+  &__list-item:hover {
+    opacity: 0.7;
   }
 
   &__text {
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+    color: #666;
+    font-weight: 300;
   }
 }
 
 .list-item {
   &__image {
-    margin-bottom: 12px;
     width: auto;
-    height: 60px;
+    height: 40px;
+    opacity: 0.8;
+    transition: opacity 200ms ease;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
   }
 }
 
@@ -402,7 +422,7 @@ h5 {
 
   .skills {
     &__list {
-      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
     }
   }
 

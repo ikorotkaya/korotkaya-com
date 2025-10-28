@@ -1,54 +1,62 @@
 export const skillsData = [
   {
-    title: 'Typescript',
-    logoSrc: '/images/typescript.webp',
+    title: "Typescript",
+    logoSrc: "/images/typescript.webp",
   },
   {
-    title: 'Javascript',
-    logoSrc: '/images/javascript.webp',
+    title: "Javascript",
+    logoSrc: "/images/javascript.webp",
   },
   {
-    title: 'React',
-    logoSrc: '/images/react.webp',
+    title: "React",
+    logoSrc: "/images/react.webp",
   },
   {
-    title: 'Node.js',
-    logoSrc: '/images/nodejs.webp',
+    title: "Next.js",
+    logoSrc: "/images/nextjs.webp",
   },
   {
-    title: 'Express.js',
-    logoSrc: '/images/express.webp',
+    title: "Node.js",
+    logoSrc: "/images/nodejs.webp",
   },
   {
-    title: 'Git/Github',
-    logoSrc: '/images/git.webp',
+    title: "Express.js",
+    logoSrc: "/images/express.webp",
   },
   {
-    title: 'Tailwind',
-    logoSrc: '/images/tailwind.webp',
+    title: "Git/Github",
+    logoSrc: "/images/git.webp",
   },
   {
-    title: 'PostrgreSQL',
-    logoSrc: '/images/postgre.webp',
+    title: "Tailwind",
+    logoSrc: "/images/tailwind.webp",
   },
   {
-    title: 'Cypress',
-    logoSrc: '/images/cypress.jpeg',
+    title: "PostrgreSQL",
+    logoSrc: "/images/postgre.webp",
   },
   {
-    title: 'Jest',
-    logoSrc: '/images/jest.svg',
+    title: "GraphQL",
+    logoSrc: "/images/graphql.webp",
   },
   {
-    title: 'HTML',
-    logoSrc: '/images/html-5.webp',
+    title: "Cypress",
+    logoSrc: "/images/cypress.jpeg",
   },
   {
-    title: 'CSS',
-    logoSrc: '/images/css.webp',
+    title: "Jest",
+    logoSrc: "/images/jest.svg",
   },
   {
-    title: 'Sass',
-    logoSrc: '/images/sass.webp',
-  }
+    title: "HTML",
+    logoSrc: "/images/html-5.webp",
+  },
+  {
+    title: "CSS",
+    logoSrc: "/images/css.webp",
+  },
+  {
+    title: "Sass",
+    logoSrc: "/images/sass.webp",
+  },
 ];
