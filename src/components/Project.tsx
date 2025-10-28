@@ -19,7 +19,7 @@ export function Project({
     <div className="project">
       <div className="project__title">{title}</div>
       <img className="project__prev" src={imageSrc} alt={title} />
-      <p>{description}</p>
+      <p className="project__description">{description}</p>
       <div className="project__menu">
         <a
           className="project__menu-link"

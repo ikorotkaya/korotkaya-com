@@ -15,7 +15,8 @@ body {
   margin: 0;
   font-family: "Sora", sans-serif;
   font-display: swap;
-  color: #06091d;
+  color: #1a1a1a;
+  background-color: #ffffff;
 }
 
 body,
@@ -30,23 +31,24 @@ html,
 .app {
   margin: 0 auto;
   max-width: 1000px;
+  background-color: #ffffff;
 
   &__container {
-    margin: 0 2rem;
+    margin: 0 3rem;
   }
 
   &__navbar {
-    color: #06091d;
+    color: #1a1a1a;
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 0 6rem;
+    margin: 2rem 0 8rem;
     width: 100%;
   }
 
   &__topic {
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +71,8 @@ html,
   &__logo {
     font-size: 36px;
     font-family: "Caveat";
-    font-weight: bold;
+    font-weight: 600;
+    color: #1a1a1a;
   }
 
   &__links {
@@ -81,15 +84,17 @@ html,
 
   &__link {
     font-size: 16px;
-    color: #06091d;
+    color: #1a1a1a;
     text-decoration: none;
-    padding: 0px 5px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
   }
 
   &__link:hover {
     cursor: pointer;
     color: darkcyan;
-    font-weight: bold;
+    background-color: #f8f9fa;
   }
 }
 
@@ -132,8 +137,7 @@ html,
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 238, 238);
-    border-radius: 20px;
+    background: transparent;
   }
 
   &__skills,
@@ -146,11 +150,11 @@ html,
 }
 
 .topic-headline {
-  font-size: 32px;
-  margin-bottom: 30px;
-  text-decoration: underline;
-  font-weight: bold;
-  text-underline-offset: 10px;
+  font-size: 36px;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.02em;
 }
 
 // about me
@@ -159,25 +163,22 @@ html,
   &__avatar {
     border-radius: 50%;
     margin: 3rem 2rem;
-    width: 40%;
+    width: 30%;
+    height: 30%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
 
   &__description {
     margin: 0 50px;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.description {
-  &__headline {
-    font-size: 36px;
   }
 
   &__text {
     font-size: 20px;
-    margin-top: 20px;
-    line-height: 30px;
+    margin-top: 0;
+    line-height: 1.6;
+    color: #4a4a4a;
   }
 }
 
@@ -187,47 +188,53 @@ html,
   &__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
-    justify-content: center;
+    gap: 1.5rem;
     align-items: center;
+    margin: 0 auto;
   }
 
   &__list-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    padding: 0;
+    gap: 12px;
+    padding: 1rem;
     background: transparent;
     border: none;
-    transition: opacity 200ms ease;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+    flex: 0 0 calc(16.666% - 1.25rem); /* 6 items per row: 100% / 6 - gap */
+    min-width: 120px;
   }
 
   &__list-item:hover {
-    opacity: 0.7;
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
   }
 
   &__text {
     font-size: 16px;
-    margin-bottom: 32px;
-    color: #666;
-    font-weight: 300;
+    margin-bottom: 2rem;
+    color: #6b7280;
+    font-weight: 400;
+    text-align: center;
   }
 }
 
 .list-item {
   &__image {
     width: auto;
-    height: 40px;
-    opacity: 0.8;
-    transition: opacity 200ms ease;
+    height: 48px;
+    opacity: 0.9;
+    transition: all 0.2s ease;
   }
 
   &__text {
     font-size: 14px;
-    font-weight: 400;
-    color: #333;
+    font-weight: 500;
+    color: #374151;
     margin: 0;
+    text-align: center;
   }
 }
 
@@ -243,7 +250,9 @@ h5 {
   &__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
   }
 }
 
@@ -253,11 +262,24 @@ h5 {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  padding: 16px;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  }
 
   &__title {
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #1a1a1a;
+    padding: 0;
   }
 
   &__prev {
@@ -265,32 +287,39 @@ h5 {
     width: 100%;
     height: 18rem;
     object-position: 50% 0;
-    border-radius: 10px;
-    border: 2px solid #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #e0e0e0;
+  }
+
+  &__description {
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #4a4a4a;
+    line-height: 1.4;
   }
 
   &__menu {
     display: flex;
     margin-top: auto;
     width: 100%;
+    padding: 0;
+    gap: 0.5rem;
   }
 
   &__menu-link {
     text-decoration: none;
-    color: #06091d;
+    color: #1a1a1a;
     font-size: 14px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    background-color: rgb(238, 238, 238);
-  }
-
-  &__menu-link:not(:last-child) {
-    margin-right: 10px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    transition: all 0.2s ease;
+    font-weight: 500;
   }
 
   &__menu-link:hover {
     background-color: darkcyan;
-    border-radius: 10px;
     color: white;
   }
 }
@@ -303,35 +332,39 @@ h5 {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
   }
 
   &__social-link {
     text-decoration: none;
-    color: #3e4c59;
-    font-size: 24px;
-    padding: 0 10px;
+    color: #1a1a1a;
+    font-size: 16px;
+    padding: 8px 12px;
     display: flex;
     align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+  }
+
+  &__social-link:hover {
+    cursor: pointer;
+    color: darkcyan;
+    background-color: #f8f9fa;
   }
 }
 
 .social-link {
   &__link {
     text-decoration: none;
-    color: #3e4c59;
+    color: inherit;
     font-size: 16px;
-    padding: 0 10px;
+    font-weight: 500;
   }
 
   &__logo {
-    width: 25px;
+    width: 24px;
     height: auto;
-  }
-
-  &__link:hover {
-    cursor: pointer;
-    color: darkcyan;
-    font-weight: bold;
   }
 }
 
@@ -340,7 +373,8 @@ h5 {
 .footer {
   &__text {
     font-size: 14px;
-    color: #3e4c59;
+    color: #6b7280;
+    text-align: center;
   }
 
   &__emoji {
@@ -352,10 +386,12 @@ h5 {
 .website_link {
   text-decoration: none;
   color: darkcyan;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
 .website_link:hover {
-  text-decoration: underline;
+  color: #008b8b;
 }
 
 // mobile
@@ -374,17 +410,20 @@ h5 {
   .topic {
     &__about-me {
       display: flex;
+      gap: 2rem;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      background: transparent;
     }
   }
 
   .about-me {
     &__avatar {
-      width: 80%;
-      height: 80%;
-      padding: 2rem 0;
+      width: 55%;
+      height: 55%;
+      aspect-ratio: 1;
+      object-fit: cover;
       margin: 0;
     }
 
@@ -411,18 +450,27 @@ h5 {
 
   .description {
     &__headline {
-      font-size: 32px;
+      font-size: 36px;
+      text-align: center;
     }
 
     &__text {
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
     }
   }
 
   .skills {
     &__list {
-      gap: 24px;
+      gap: 1rem;
+      padding: 0 1rem;
+      justify-content: center;
+    }
+
+    &__list-item {
+      flex: 0 0 calc(25% - 0.75rem); /* 4 items per row: 100% / 4 - gap */
+      min-width: 100px;
     }
   }
 
@@ -443,11 +491,39 @@ h5 {
   .contact {
     &__container {
       flex-direction: column;
-      align-items: start;
+      align-items: center;
+      gap: 1.5rem;
     }
 
     &__social-link {
-      padding: 0;
+      padding: 8px 12px;
+      width: auto;
+      justify-content: center;
+    }
+  }
+}
+
+// Extra small mobile devices
+@media (max-width: 480px) {
+  .skills {
+    &__list {
+      gap: 0.75rem;
+      padding: 0 0.5rem;
+    }
+
+    &__list-item {
+      flex: 0 0 calc(50% - 0.75rem); /* 2 items per row: 100% / 2 - gap */
+      min-width: 80px;
+    }
+  }
+
+  .list-item {
+    &__image {
+      height: 32px;
+    }
+
+    &__text {
+      font-size: 11px;
     }
   }
 }

@@ -13,8 +13,8 @@ export default function App() {
       <div className="app__container">
         <Navbar />
         <About />
-        <Skills />
         <Projects />
+        <Skills />
         <Contact />
         <Footer />
       </div>
