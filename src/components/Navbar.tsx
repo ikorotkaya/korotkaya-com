@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Logo } from "./Logo";
 import { DesktopNavbarLinks } from "./DesktopNavbarLinks";
 import { MobileNavbarLinks } from "./MobileNavbarLinks";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Navbar() {
   const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
@@ -22,7 +23,10 @@ export function Navbar() {
   return (
     <div className="app__navbar">
       <Logo />
-      {windowWidth < 768 ? <MobileNavbarLinks /> : <DesktopNavbarLinks />}
+      <div className="navbar__right">
+        <ThemeToggle />
+        {windowWidth < 768 ? <MobileNavbarLinks /> : <DesktopNavbarLinks />}
+      </div>
     </div>
   );
 }
