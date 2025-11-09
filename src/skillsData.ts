@@ -41,11 +41,11 @@ export const skillsData = [
   },
   {
     title: "Cypress",
-    logoSrc: "/images/cypress.jpeg",
+    logoSrc: "/images/cypress.webp",
   },
   {
     title: "Jest",
-    logoSrc: "/images/jest.svg",
+    logoSrc: "/images/jest.webp",
   },
   {
     title: "HTML",
