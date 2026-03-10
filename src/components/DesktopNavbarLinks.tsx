@@ -1,14 +1,10 @@
-import React from "react";
-
 const sections = [
   { id: "about", text: "About" },
   { id: "projects", text: "Projects" },
-  { id: "skills", text: "Skills" },
   { id: "contact", text: "Contact" },
 ];
 
 export function DesktopNavbarLinks() {
-
   return (
     <nav className="navbar__links">
       {sections.map((section) => (

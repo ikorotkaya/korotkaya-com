@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const sections = [
   { id: "about", text: "About" },
   { id: "projects", text: "Projects" },
-  { id: "skills", text: "Skills" },
   { id: "contact", text: "Contact" },
 ];
 
