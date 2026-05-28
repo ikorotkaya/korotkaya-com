@@ -1,5 +1,7 @@
 export function Logo() {
   return (
-    <div className="navbar__logo">Irina Korotkaya</div>
-  )
+    <a href="#about" className="navbar__logo" aria-label="Irina Korotkaya — home">
+      IK
+    </a>
+  );
 }

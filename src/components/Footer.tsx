@@ -1,9 +1,7 @@
 export function Footer() {
   return (
     <div className="app__footer">
-      <div className="footer__text">
-        Made with ♥️ by <b>Irina Korotkaya</b> in 2023
-      </div>
+      <p className="footer__text">Irina Korotkaya &mdash; 2026</p>
     </div>
   );
 }

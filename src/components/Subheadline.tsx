@@ -2,13 +2,13 @@ import React from "react";
 
 export function Subheadline() {
   return (
-    <div className="description__text">
-      I'm a Software Engineer with a background in Design and Architecture,
-      based in Berlin. Currently working as a Software Engineer at{" "}
+    <p className="description__text">
+      Built my first websites at 14. Spent twelve years studying and practicing architecture in Moscow and Berlin. Then came back to code — for good this time.
+      Currently a Software Engineer at{" "}
       <a href="https://www.liqid.de" className="website_link">
         LIQID
       </a>
-      .
-    </div>
+      . Sensitive to beauty and detail, occasionally overwhelmed by both.
+    </p>
   );
 }
