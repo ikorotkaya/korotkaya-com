@@ -7,7 +7,7 @@ export function Headline() {
           className="description__ex-architect"
           data-tooltip="Not the software kind. The buildings kind."
         >
-          Architecture
+          Architect
         </span>{" "}
         &mdash; Berlin
       </p>
